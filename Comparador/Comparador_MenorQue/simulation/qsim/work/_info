@@ -1,0 +1,178 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Paulo/Documents/CIn-UFPE/2P/Sist Digitais/PROJETOS/Comparador_MenorQue/simulation/qsim
+vComp_Me_bitsinal
+!s110 1626467682
+!i10b 1
+!s100 oh5Y9Ic7X;?^g2>N38JU32
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I>QM__9R9=a<S;cib23m?30
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1626467676
+Z3 8Comp_Menor.vo
+Z4 FComp_Menor.vo
+!i122 0
+Z5 L0 32 103
+Z6 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1626467682.000000
+Z7 !s107 Comp_Menor.vo|
+Z8 !s90 -work|work|Comp_Menor.vo|
+!i113 1
+Z9 o-work work
+Z10 tCvgOpt 0
+n@comp_@me_bitsinal
+vComp_Me_bitsinal_vlg_vec_tst
+!s110 1626467683
+!i10b 1
+!s100 K`2[ojbKAgaMg?cc0bhKM1
+R1
+I]ECA8SNJ?BJUAmAhm8^3B0
+R2
+R0
+w1626467674
+8bitsinalmenorque_waveform.vwf.vt
+Fbitsinalmenorque_waveform.vwf.vt
+!i122 1
+L0 30 46
+R6
+r1
+!s85 0
+31
+!s108 1626467683.000000
+!s107 bitsinalmenorque_waveform.vwf.vt|
+!s90 -work|work|bitsinalmenorque_waveform.vwf.vt|
+!i113 1
+R9
+R10
+n@comp_@me_bitsinal_vlg_vec_tst
+vComp_Men
+Z11 !s110 1626470779
+!i10b 1
+!s100 =[6_jU`F_5O@Zj1?`jgRk2
+R1
+I5n9OkF5a2BzSbgUi?D[FV3
+R2
+R0
+w1626470773
+R3
+R4
+!i122 2
+R5
+R6
+r1
+!s85 0
+31
+!s108 1626470778.000000
+R7
+R8
+!i113 1
+R9
+R10
+n@comp_@men
+vComp_Men_vlg_vec_tst
+R11
+!i10b 1
+!s100 UOj?4hUS:zb>^O9gXjgE41
+R1
+I`WYUOFae4_Ii1?^cQ[hJK0
+R2
+R0
+w1626470770
+8bitsinalmenor_waveform.vwf.vt
+Fbitsinalmenor_waveform.vwf.vt
+!i122 3
+L0 30 51
+R6
+r1
+!s85 0
+31
+!s108 1626470779.000000
+!s107 bitsinalmenor_waveform.vwf.vt|
+!s90 -work|work|bitsinalmenor_waveform.vwf.vt|
+!i113 1
+R9
+R10
+n@comp_@men_vlg_vec_tst
+vComp_Menor_5bits
+Z12 !s110 1626472135
+!i10b 1
+!s100 QFVB^A5;f?lPUA3jcYd9A1
+R1
+IHC:8QUO^`e4aXha4CfO`>1
+R2
+R0
+Z13 w1626472132
+R3
+R4
+!i122 6
+L0 32 89
+R6
+r1
+!s85 0
+31
+Z14 !s108 1626472135.000000
+R7
+R8
+!i113 1
+R9
+R10
+n@comp_@menor_5bits
+vComp_Menor_5bits_vlg_vec_tst
+R12
+!i10b 1
+!s100 ^9kaFQ]e79no4H>gL?Fn11
+R1
+IjmN93RJ;W0Q@nzJl>3SGP1
+R2
+R0
+w1626472129
+8comp_menorque5bitswaveform.vwf.vt
+Fcomp_menorque5bitswaveform.vwf.vt
+!i122 7
+L0 30 41
+R6
+r1
+!s85 0
+31
+R14
+!s107 comp_menorque5bitswaveform.vwf.vt|
+!s90 -work|work|comp_menorque5bitswaveform.vwf.vt|
+!i113 1
+R9
+R10
+n@comp_@menor_5bits_vlg_vec_tst
+vhard_block
+R12
+!i10b 1
+!s100 cG=Ao3<3b_1=MXMOM393M0
+R1
+IQQAg4o3heR=UgmIlDXzFC1
+R2
+R0
+R13
+R3
+R4
+!i122 6
+L0 122 34
+R6
+r1
+!s85 0
+31
+R14
+R7
+R8
+!i113 1
+R9
+R10

@@ -1,0 +1,126 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Paulo/Documents/CIn-UFPE/2P/Sist Digitais/PROJETOS/Comparador_MaiorQue/simulation/qsim
+vcomp_maior_5bits
+Z1 !s110 1626465238
+!i10b 1
+!s100 Bca`az;40El_imI1a8Xb?1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IMBzZXk=?IRQ2n86Y^ReJO2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1626465232
+Z5 8comp_maior.vo
+Z6 Fcomp_maior.vo
+!i122 30
+L0 32 89
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1626465238.000000
+Z9 !s107 comp_maior.vo|
+Z10 !s90 -work|work|comp_maior.vo|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+vcomp_maior_5bits_vlg_vec_tst
+!s110 1626465239
+!i10b 1
+!s100 I=fHzCZlF=LZ]C9mM>kzF3
+R2
+ImH[Ak_;g2RV<9[C@9d^Ro0
+R3
+R0
+w1626465230
+8maiorque_5bits_waveform.vwf.vt
+Fmaiorque_5bits_waveform.vwf.vt
+!i122 31
+L0 30 36
+R7
+r1
+!s85 0
+31
+R8
+!s107 maiorque_5bits_waveform.vwf.vt|
+!s90 -work|work|maiorque_5bits_waveform.vwf.vt|
+!i113 1
+R11
+R12
+vcomp_sinal
+Z13 !s110 1626460556
+!i10b 1
+!s100 mhgQeCAa:k2PF<[e^UWb>1
+R2
+IT@Ol_z5@AUdVGj?>0P3XW2
+R3
+R0
+w1626460553
+R5
+R6
+!i122 28
+L0 32 103
+R7
+r1
+!s85 0
+31
+Z14 !s108 1626460556.000000
+R9
+R10
+!i113 1
+R11
+R12
+vcomp_sinal_vlg_vec_tst
+R13
+!i10b 1
+!s100 ognZMNo]O?NmUOfId?Sc10
+R2
+ITCDKZ9fFg6cKR<ScG1a0k0
+R3
+R0
+w1626460551
+8maior_bit_sinal_Waveform.vwf.vt
+Fmaior_bit_sinal_Waveform.vwf.vt
+!i122 29
+L0 30 68
+R7
+r1
+!s85 0
+31
+R14
+!s107 maior_bit_sinal_Waveform.vwf.vt|
+!s90 -work|work|maior_bit_sinal_Waveform.vwf.vt|
+!i113 1
+R11
+R12
+vhard_block
+R1
+!i10b 1
+!s100 cG=Ao3<3b_1=MXMOM393M0
+R2
+I0L>0[]VfB6d`M?4=<cM8[2
+R3
+R0
+R4
+R5
+R6
+!i122 30
+L0 122 34
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12

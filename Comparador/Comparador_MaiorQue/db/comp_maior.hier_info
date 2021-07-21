@@ -1,0 +1,64 @@
+|comp_maior_5bits
+Saida_final <= comp_normal:inst4.saida
+A => comp_normal:inst4.A
+A => comp_normal:inst3.A
+A => comp_normal:inst2.A
+A => comp_normal:inst1.A
+A => comp_sinal:inst.A
+B => comp_normal:inst4.B
+B => comp_normal:inst3.B
+B => comp_normal:inst2.B
+B => comp_normal:inst1.B
+B => comp_sinal:inst.B
+
+
+|comp_maior_5bits|comp_normal:inst4
+saida <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+B => inst3.IN0
+B => inst1.IN0
+A => inst6.IN1
+A => inst.IN0
+C => inst.IN1
+C => inst2.IN0
+
+
+|comp_maior_5bits|comp_normal:inst3
+saida <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+B => inst3.IN0
+B => inst1.IN0
+A => inst6.IN1
+A => inst.IN0
+C => inst.IN1
+C => inst2.IN0
+
+
+|comp_maior_5bits|comp_normal:inst2
+saida <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+B => inst3.IN0
+B => inst1.IN0
+A => inst6.IN1
+A => inst.IN0
+C => inst.IN1
+C => inst2.IN0
+
+
+|comp_maior_5bits|comp_normal:inst1
+saida <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+B => inst3.IN0
+B => inst1.IN0
+A => inst6.IN1
+A => inst.IN0
+C => inst.IN1
+C => inst2.IN0
+
+
+|comp_maior_5bits|comp_sinal:inst
+saida <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+B => inst5.IN0
+B => inst3.IN1
+A => inst4.IN0
+A => inst1.IN0
+c => inst.IN1
+c => inst3.IN0
+
+

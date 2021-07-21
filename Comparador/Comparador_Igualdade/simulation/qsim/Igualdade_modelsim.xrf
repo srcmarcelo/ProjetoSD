@@ -1,0 +1,17 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/Paulo/Documents/CIn-UFPE/2P/Sist Digitais/PROJETOS/Comparador_Igualdade/Cicuito_Igualdade1bit.bdf
+source_file = 1, C:/Users/Paulo/Documents/CIn-UFPE/2P/Sist Digitais/PROJETOS/Comparador_Igualdade/Waveform_circuito1bit.vwf
+source_file = 1, C:/Users/Paulo/Documents/CIn-UFPE/2P/Sist Digitais/PROJETOS/Comparador_Igualdade/Circuito_Igualdade_4bits.bdf
+source_file = 1, C:/Users/Paulo/Documents/CIn-UFPE/2P/Sist Digitais/PROJETOS/Comparador_Igualdade/modulo_unico_5bits_compactado.bdf
+source_file = 1, C:/Users/Paulo/Documents/CIn-UFPE/2P/Sist Digitais/PROJETOS/Comparador_Igualdade/Waveform_Circuito5bits.vwf
+source_file = 1, C:/Users/Paulo/Documents/CIn-UFPE/2P/Sist Digitais/PROJETOS/Comparador_Igualdade/db/Igualdade.cbx.xml
+design_name = Cicuito_Igualdade1bit
+instance = comp, \saida~output , saida~output, Cicuito_Igualdade1bit, 1
+instance = comp, \C~input , C~input, Cicuito_Igualdade1bit, 1
+instance = comp, \B~input , B~input, Cicuito_Igualdade1bit, 1
+instance = comp, \A~input , A~input, Cicuito_Igualdade1bit, 1
+instance = comp, \inst8~0 , inst8~0, Cicuito_Igualdade1bit, 1
+design_name = hard_block
+instance = comp, \~ALTERA_ASDO_DATA1~~ibuf , ~ALTERA_ASDO_DATA1~~ibuf, hard_block, 1
+instance = comp, \~ALTERA_FLASH_nCE_nCSO~~ibuf , ~ALTERA_FLASH_nCE_nCSO~~ibuf, hard_block, 1
+instance = comp, \~ALTERA_DATA0~~ibuf , ~ALTERA_DATA0~~ibuf, hard_block, 1

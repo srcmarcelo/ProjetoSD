@@ -1,0 +1,64 @@
+|Comp_Menor_5bits
+Saida_Final <= Comp_Men:4.SAIDA
+A => Comp_Men:4.A
+A => Comp_Men:3.A
+A => Comp_Men:2.A
+A => Comp_Men:1.A
+A => Comp_Me_bitsinal:0.A
+B => Comp_Men:4.B
+B => Comp_Men:3.B
+B => Comp_Men:2.B
+B => Comp_Men:1.B
+B => Comp_Me_bitsinal:0.B
+
+
+|Comp_Menor_5bits|Comp_Men:4
+SAIDA <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+A => inst7.IN0
+A => inst1.IN0
+B => inst8.IN1
+B => inst5.IN1
+C => inst2.IN0
+C => inst4.IN0
+
+
+|Comp_Menor_5bits|Comp_Men:3
+SAIDA <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+A => inst7.IN0
+A => inst1.IN0
+B => inst8.IN1
+B => inst5.IN1
+C => inst2.IN0
+C => inst4.IN0
+
+
+|Comp_Menor_5bits|Comp_Men:2
+SAIDA <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+A => inst7.IN0
+A => inst1.IN0
+B => inst8.IN1
+B => inst5.IN1
+C => inst2.IN0
+C => inst4.IN0
+
+
+|Comp_Menor_5bits|Comp_Men:1
+SAIDA <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+A => inst7.IN0
+A => inst1.IN0
+B => inst8.IN1
+B => inst5.IN1
+C => inst2.IN0
+C => inst4.IN0
+
+
+|Comp_Menor_5bits|Comp_Me_bitsinal:0
+SAIDA <= inst14.DB_MAX_OUTPUT_PORT_TYPE
+A => inst16.IN0
+A => inst9.IN0
+B => inst15.IN0
+B => inst12.IN0
+C => inst.IN0
+C => inst11.IN0
+
+

@@ -1,0 +1,16 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/Paulo/Documents/CIn-UFPE/2P/Sist Digitais/PROJETOS/Comparador_MenorQue/Comp_Me_bitsinal.bdf
+source_file = 1, C:/Users/Paulo/Documents/CIn-UFPE/2P/Sist Digitais/PROJETOS/Comparador_MenorQue/bitsinalmenorque_waveform.vwf
+source_file = 1, C:/Users/Paulo/Documents/CIn-UFPE/2P/Sist Digitais/PROJETOS/Comparador_MenorQue/Comp_Men.bdf
+source_file = 1, C:/Users/Paulo/Documents/CIn-UFPE/2P/Sist Digitais/PROJETOS/Comparador_MenorQue/bitsinalmenor_waveform.vwf
+source_file = 1, C:/Users/Paulo/Documents/CIn-UFPE/2P/Sist Digitais/PROJETOS/Comparador_MenorQue/Comp_Menor_5bits.bdf
+source_file = 1, C:/Users/Paulo/Documents/CIn-UFPE/2P/Sist Digitais/PROJETOS/Comparador_MenorQue/db/Comp_Menor.cbx.xml
+design_name = Comp_Menor_5bits
+instance = comp, \Saida_Final~output , Saida_Final~output, Comp_Menor_5bits, 1
+instance = comp, \B~input , B~input, Comp_Menor_5bits, 1
+instance = comp, \A~input , A~input, Comp_Menor_5bits, 1
+instance = comp, \4|inst6~0 , 4|inst6~0, Comp_Menor_5bits, 1
+design_name = hard_block
+instance = comp, \~ALTERA_ASDO_DATA1~~ibuf , ~ALTERA_ASDO_DATA1~~ibuf, hard_block, 1
+instance = comp, \~ALTERA_FLASH_nCE_nCSO~~ibuf , ~ALTERA_FLASH_nCE_nCSO~~ibuf, hard_block, 1
+instance = comp, \~ALTERA_DATA0~~ibuf , ~ALTERA_DATA0~~ibuf, hard_block, 1
